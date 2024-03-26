@@ -1,5 +1,5 @@
 {
-  "1020629257690728519": {
+  "14971320418657503367": {
     "build": {
       "command": "vite build",
       "options": {
@@ -60,7 +60,7 @@
       ]
     }
   },
-  "7020800063439957493": {
+  "2672773456243618953": {
     "build": {
       "command": "vite build",
       "options": {
@@ -80,7 +80,7 @@
         }
       ],
       "outputs": [
-        "{workspaceRoot}/dist/libs/common-ui"
+        "{projectRoot}/dist"
       ]
     },
     "serve": {

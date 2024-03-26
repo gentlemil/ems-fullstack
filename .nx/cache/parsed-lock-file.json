@@ -45,42 +45,6 @@
         "hash": "sha512-2uz98IqkKJlgnHbWQ7VeL4pb+snGAZXIama2KXi+k9GsRntdcw+udX8rL3G9SdUGUF+m6+147Y1oRBMHsO/v4w=="
       }
     },
-    "npm:ajv@8.12.0": {
-      "type": "npm",
-      "name": "npm:ajv@8.12.0",
-      "data": {
-        "version": "8.12.0",
-        "packageName": "ajv",
-        "hash": "sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA=="
-      }
-    },
-    "npm:ajv": {
-      "type": "npm",
-      "name": "npm:ajv",
-      "data": {
-        "version": "6.12.6",
-        "packageName": "ajv",
-        "hash": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g=="
-      }
-    },
-    "npm:json-schema-traverse@1.0.0": {
-      "type": "npm",
-      "name": "npm:json-schema-traverse@1.0.0",
-      "data": {
-        "version": "1.0.0",
-        "packageName": "json-schema-traverse",
-        "hash": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug=="
-      }
-    },
-    "npm:json-schema-traverse": {
-      "type": "npm",
-      "name": "npm:json-schema-traverse",
-      "data": {
-        "version": "0.4.1",
-        "packageName": "json-schema-traverse",
-        "hash": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg=="
-      }
-    },
     "npm:picomatch@3.0.1": {
       "type": "npm",
       "name": "npm:picomatch@3.0.1",
@@ -2403,6 +2367,24 @@
         "hash": "sha512-269Z39MS6wVJtsoUl10L60WdkhJVdPG24Q4eZTH3nnF6lpvSShEK3wQjDX9JRWAUPvPh7COouPpU9IrqaZFvtQ=="
       }
     },
+    "npm:ajv@6.12.6": {
+      "type": "npm",
+      "name": "npm:ajv@6.12.6",
+      "data": {
+        "version": "6.12.6",
+        "packageName": "ajv",
+        "hash": "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g=="
+      }
+    },
+    "npm:ajv": {
+      "type": "npm",
+      "name": "npm:ajv",
+      "data": {
+        "version": "8.12.0",
+        "packageName": "ajv",
+        "hash": "sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA=="
+      }
+    },
     "npm:brace-expansion@1.1.11": {
       "type": "npm",
       "name": "npm:brace-expansion@1.1.11",
@@ -2437,6 +2419,24 @@
         "version": "11.12.0",
         "packageName": "globals",
         "hash": "sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA=="
+      }
+    },
+    "npm:json-schema-traverse@0.4.1": {
+      "type": "npm",
+      "name": "npm:json-schema-traverse@0.4.1",
+      "data": {
+        "version": "0.4.1",
+        "packageName": "json-schema-traverse",
+        "hash": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg=="
+      }
+    },
+    "npm:json-schema-traverse": {
+      "type": "npm",
+      "name": "npm:json-schema-traverse",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "json-schema-traverse",
+        "hash": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug=="
       }
     },
     "npm:minimatch@3.1.2": {
@@ -3625,6 +3625,51 @@
         "version": "18.1.3",
         "packageName": "@nx/js",
         "hash": "sha512-nXDTgyyM3/rfLFORroOzgaeD1+sI+QU+lrVMbW0JW0SkqrzpEXzo8VdlFoA2DQrbaChT3lyZQwGQ/CZYF+76Sw=="
+      }
+    },
+    "npm:babel-plugin-macros@2.8.0": {
+      "type": "npm",
+      "name": "npm:babel-plugin-macros@2.8.0",
+      "data": {
+        "version": "2.8.0",
+        "packageName": "babel-plugin-macros",
+        "hash": "sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg=="
+      }
+    },
+    "npm:babel-plugin-macros": {
+      "type": "npm",
+      "name": "npm:babel-plugin-macros",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "babel-plugin-macros",
+        "hash": "sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg=="
+      }
+    },
+    "npm:cosmiconfig@6.0.0": {
+      "type": "npm",
+      "name": "npm:cosmiconfig@6.0.0",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg=="
+      }
+    },
+    "npm:cosmiconfig@7.1.0": {
+      "type": "npm",
+      "name": "npm:cosmiconfig@7.1.0",
+      "data": {
+        "version": "7.1.0",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA=="
+      }
+    },
+    "npm:cosmiconfig": {
+      "type": "npm",
+      "name": "npm:cosmiconfig",
+      "data": {
+        "version": "8.3.6",
+        "packageName": "cosmiconfig",
+        "hash": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="
       }
     },
     "npm:@nx/linter": {
@@ -6532,42 +6577,6 @@
         "version": "29.6.3",
         "packageName": "babel-plugin-jest-hoist",
         "hash": "sha512-ESAc/RJvGTFEzRwOTT4+lNDk/GNHMkKbNzsvT0qKRfDyyYTskxB5rnU2njIDYVxXCBHHEI1c0YwHob3WaYujOg=="
-      }
-    },
-    "npm:babel-plugin-macros": {
-      "type": "npm",
-      "name": "npm:babel-plugin-macros",
-      "data": {
-        "version": "2.8.0",
-        "packageName": "babel-plugin-macros",
-        "hash": "sha512-SEP5kJpfGYqYKpBrj5XU3ahw5p5GOHJ0U5ssOSQ/WBVdwkD2Dzlce95exQTs3jOVWPPKLBN2rlEWkCK7dSmLvg=="
-      }
-    },
-    "npm:cosmiconfig@6.0.0": {
-      "type": "npm",
-      "name": "npm:cosmiconfig@6.0.0",
-      "data": {
-        "version": "6.0.0",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg=="
-      }
-    },
-    "npm:cosmiconfig": {
-      "type": "npm",
-      "name": "npm:cosmiconfig",
-      "data": {
-        "version": "8.3.6",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="
-      }
-    },
-    "npm:cosmiconfig@7.1.0": {
-      "type": "npm",
-      "name": "npm:cosmiconfig@7.1.0",
-      "data": {
-        "version": "7.1.0",
-        "packageName": "cosmiconfig",
-        "hash": "sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA=="
       }
     },
     "npm:babel-plugin-polyfill-corejs2": {
@@ -9781,6 +9790,15 @@
         "version": "1.0.3",
         "packageName": "globalthis",
         "hash": "sha512-sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA=="
+      }
+    },
+    "npm:globrex": {
+      "type": "npm",
+      "name": "npm:globrex",
+      "data": {
+        "version": "0.1.2",
+        "packageName": "globrex",
+        "hash": "sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg=="
       }
     },
     "npm:gopd": {
@@ -14562,6 +14580,15 @@
         "hash": "sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw=="
       }
     },
+    "npm:tsconfck": {
+      "type": "npm",
+      "name": "npm:tsconfck",
+      "data": {
+        "version": "3.0.3",
+        "packageName": "tsconfck",
+        "hash": "sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA=="
+      }
+    },
     "npm:tsconfig-paths-webpack-plugin": {
       "type": "npm",
       "name": "npm:tsconfig-paths-webpack-plugin",
@@ -14949,6 +14976,15 @@
         "hash": "sha512-WbJgGtsStgQhdm3EosYmIdTGbag5YQpZ3HXWUAPCDyoXI5qN6EY0V7NXq0lAmnv9hVQsvh0htbYcg0Or5Db9JQ=="
       }
     },
+    "npm:vite-tsconfig-paths": {
+      "type": "npm",
+      "name": "npm:vite-tsconfig-paths",
+      "data": {
+        "version": "4.3.2",
+        "packageName": "vite-tsconfig-paths",
+        "hash": "sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA=="
+      }
+    },
     "npm:vitest": {
       "type": "npm",
       "name": "npm:vitest",
@@ -15292,7 +15328,7 @@
     },
     {
       "source": "npm:@angular-devkit/core",
-      "target": "npm:ajv@8.12.0",
+      "target": "npm:ajv",
       "type": "static"
     },
     {
@@ -15318,26 +15354,6 @@
     {
       "source": "npm:@angular-devkit/core",
       "target": "npm:source-map@0.7.4",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:fast-deep-equal",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:json-schema-traverse@1.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:require-from-string",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -17897,7 +17913,7 @@
     },
     {
       "source": "npm:@eslint/eslintrc",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -17938,6 +17954,26 @@
     {
       "source": "npm:@eslint/eslintrc",
       "target": "npm:strip-json-comments",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -18927,7 +18963,7 @@
     },
     {
       "source": "npm:@microsoft/tsdoc-config",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -18938,6 +18974,26 @@
     {
       "source": "npm:@microsoft/tsdoc-config",
       "target": "npm:resolve@1.19.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -19652,7 +19708,7 @@
     },
     {
       "source": "npm:@nx/js",
-      "target": "npm:babel-plugin-macros",
+      "target": "npm:babel-plugin-macros@2.8.0",
       "type": "static"
     },
     {
@@ -19741,6 +19797,46 @@
       "type": "static"
     },
     {
+      "source": "npm:babel-plugin-macros@2.8.0",
+      "target": "npm:@babel/runtime",
+      "type": "static"
+    },
+    {
+      "source": "npm:babel-plugin-macros@2.8.0",
+      "target": "npm:cosmiconfig@6.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:babel-plugin-macros@2.8.0",
+      "target": "npm:resolve",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@6.0.0",
+      "target": "npm:@types/parse-json",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@6.0.0",
+      "target": "npm:import-fresh",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@6.0.0",
+      "target": "npm:parse-json",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@6.0.0",
+      "target": "npm:path-type",
+      "type": "static"
+    },
+    {
+      "source": "npm:cosmiconfig@6.0.0",
+      "target": "npm:yaml",
+      "type": "static"
+    },
+    {
       "source": "npm:@nx/linter",
       "target": "npm:@nx/eslint",
       "type": "static"
@@ -19792,7 +19888,7 @@
     },
     {
       "source": "npm:@angular-devkit/core@16.0.1",
-      "target": "npm:ajv@8.12.0",
+      "target": "npm:ajv",
       "type": "static"
     },
     {
@@ -19863,26 +19959,6 @@
     {
       "source": "npm:@nestjs/schematics@9.2.0",
       "target": "npm:pluralize",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:fast-deep-equal",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:json-schema-traverse@1.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:require-from-string",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -20252,7 +20328,7 @@
     },
     {
       "source": "npm:@nx/webpack",
-      "target": "npm:ajv@8.12.0",
+      "target": "npm:ajv",
       "type": "static"
     },
     {
@@ -20413,26 +20489,6 @@
     {
       "source": "npm:@nx/webpack",
       "target": "npm:webpack-subresource-integrity",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:fast-deep-equal",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:json-schema-traverse@1.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:require-from-string",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -23672,47 +23728,32 @@
     },
     {
       "source": "npm:ajv",
-      "target": "npm:fast-json-stable-stringify",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv",
       "target": "npm:json-schema-traverse",
       "type": "static"
     },
     {
       "source": "npm:ajv",
-      "target": "npm:uri-js",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv-formats",
-      "target": "npm:ajv@8.12.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv-formats",
-      "target": "npm:ajv@8.12.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:fast-deep-equal",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:json-schema-traverse@1.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
       "target": "npm:require-from-string",
       "type": "static"
     },
     {
-      "source": "npm:ajv@8.12.0",
+      "source": "npm:ajv",
       "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv-formats",
+      "target": "npm:ajv",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv-formats",
+      "target": "npm:ajv",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv-keywords",
+      "target": "npm:ajv",
       "type": "static"
     },
     {
@@ -24202,7 +24243,7 @@
     },
     {
       "source": "npm:babel-plugin-macros",
-      "target": "npm:cosmiconfig@6.0.0",
+      "target": "npm:cosmiconfig@7.1.0",
       "type": "static"
     },
     {
@@ -24211,27 +24252,27 @@
       "type": "static"
     },
     {
-      "source": "npm:cosmiconfig@6.0.0",
+      "source": "npm:cosmiconfig@7.1.0",
       "target": "npm:@types/parse-json",
       "type": "static"
     },
     {
-      "source": "npm:cosmiconfig@6.0.0",
+      "source": "npm:cosmiconfig@7.1.0",
       "target": "npm:import-fresh",
       "type": "static"
     },
     {
-      "source": "npm:cosmiconfig@6.0.0",
+      "source": "npm:cosmiconfig@7.1.0",
       "target": "npm:parse-json",
       "type": "static"
     },
     {
-      "source": "npm:cosmiconfig@6.0.0",
+      "source": "npm:cosmiconfig@7.1.0",
       "target": "npm:path-type",
       "type": "static"
     },
     {
-      "source": "npm:cosmiconfig@6.0.0",
+      "source": "npm:cosmiconfig@7.1.0",
       "target": "npm:yaml",
       "type": "static"
     },
@@ -25881,6 +25922,11 @@
       "type": "static"
     },
     {
+      "source": "npm:dedent",
+      "target": "npm:babel-plugin-macros",
+      "type": "static"
+    },
+    {
       "source": "npm:deep-eql",
       "target": "npm:type-detect",
       "type": "static"
@@ -26927,7 +26973,7 @@
     },
     {
       "source": "npm:eslint",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -27866,6 +27912,26 @@
       "type": "static"
     },
     {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
       "source": "npm:brace-expansion@1.1.11",
       "target": "npm:balanced-match",
       "type": "static"
@@ -28521,8 +28587,28 @@
       "type": "static"
     },
     {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
       "source": "npm:ajv-keywords@3.5.2",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -28587,7 +28673,7 @@
     },
     {
       "source": "npm:schema-utils@3.3.0",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -33637,7 +33723,7 @@
     },
     {
       "source": "npm:schema-utils",
-      "target": "npm:ajv@8.12.0",
+      "target": "npm:ajv",
       "type": "static"
     },
     {
@@ -33648,26 +33734,6 @@
     {
       "source": "npm:schema-utils",
       "target": "npm:ajv-keywords",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:fast-deep-equal",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:json-schema-traverse@1.0.0",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:require-from-string",
-      "type": "static"
-    },
-    {
-      "source": "npm:ajv@8.12.0",
-      "target": "npm:uri-js",
       "type": "static"
     },
     {
@@ -34811,8 +34877,28 @@
       "type": "static"
     },
     {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
       "source": "npm:ajv-keywords@3.5.2",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -34837,7 +34923,7 @@
     },
     {
       "source": "npm:schema-utils@3.3.0",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -35181,6 +35267,11 @@
       "type": "static"
     },
     {
+      "source": "npm:tsconfck",
+      "target": "npm:typescript",
+      "type": "static"
+    },
+    {
       "source": "npm:tsconfig-paths",
       "target": "npm:json5",
       "type": "static"
@@ -35416,8 +35507,28 @@
       "type": "static"
     },
     {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
       "source": "npm:ajv-keywords@3.5.2",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -35427,7 +35538,7 @@
     },
     {
       "source": "npm:schema-utils@3.3.0",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -35688,6 +35799,26 @@
     {
       "source": "npm:magic-string@0.29.0",
       "target": "npm:@jridgewell/sourcemap-codec",
+      "type": "static"
+    },
+    {
+      "source": "npm:vite-tsconfig-paths",
+      "target": "npm:vite",
+      "type": "static"
+    },
+    {
+      "source": "npm:vite-tsconfig-paths",
+      "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:vite-tsconfig-paths",
+      "target": "npm:globrex",
+      "type": "static"
+    },
+    {
+      "source": "npm:vite-tsconfig-paths",
+      "target": "npm:tsconfck",
       "type": "static"
     },
     {
@@ -36306,8 +36437,28 @@
       "type": "static"
     },
     {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-deep-equal",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:fast-json-stable-stringify",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:json-schema-traverse@0.4.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:ajv@6.12.6",
+      "target": "npm:uri-js",
+      "type": "static"
+    },
+    {
       "source": "npm:ajv-keywords@3.5.2",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {
@@ -36327,7 +36478,7 @@
     },
     {
       "source": "npm:schema-utils@3.3.0",
-      "target": "npm:ajv",
+      "target": "npm:ajv@6.12.6",
       "type": "static"
     },
     {

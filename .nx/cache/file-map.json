@@ -12,6 +12,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.0",
     "tslib": "^2.3.0",
+    "vite-tsconfig-paths": "^4.3.2",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
     "@nx/cypress": "18.1.3",
@@ -421,12 +422,13 @@
         },
         {
           "file": "libs/common-ui/vite.config.ts",
-          "hash": "5220493418666129159",
+          "hash": "863147524687657989",
           "deps": [
             "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-tsconfig-paths",
             "npm:vite-plugin-dts",
-            "npm:path",
-            "npm:@nx/vite"
+            "npm:path"
           ]
         }
       ]
@@ -486,11 +488,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "13828535918545628828"
+        "hash": "10834955097615724279"
       },
       {
         "file": "package.json",
-        "hash": "12715129603268057399"
+        "hash": "4965236700411702977"
       },
       {
         "file": "tools/tsconfig.tools.json",
