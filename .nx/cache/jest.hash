@@ -1,5 +1,5 @@
 {
-  "4340435488480850757": {
+  "17772827089250469671": {
     "test": {
       "command": "jest",
       "options": {
@@ -20,7 +20,28 @@
       ]
     }
   },
-  "8983724257656887044": {
+  "9244401416002352497": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "apps/frontend"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/common-ui"
+      ]
+    }
+  },
+  "6195816260196501241": {
     "test": {
       "command": "jest",
       "options": {
@@ -41,7 +62,7 @@
       ]
     }
   },
-  "4214368478844902023": {
+  "9973769684699514052": {
     "test": {
       "command": "jest",
       "options": {

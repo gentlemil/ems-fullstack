@@ -1,5 +1,5 @@
 {
-  "14971320418657503367": {
+  "17069185256254155359": {
     "build": {
       "command": "vite build",
       "options": {
@@ -19,7 +19,7 @@
         }
       ],
       "outputs": [
-        "{workspaceRoot}/dist/apps/frontend"
+        "{projectRoot}/dist"
       ]
     },
     "serve": {
@@ -56,11 +56,11 @@
         }
       ],
       "outputs": [
-        "{workspaceRoot}/coverage/apps/frontend"
+        "{workspaceRoot}/coverage/{projectRoot}"
       ]
     }
   },
-  "2672773456243618953": {
+  "7251741417943397860": {
     "build": {
       "command": "vite build",
       "options": {

@@ -1,6 +1,8 @@
 const { NxWebpackPlugin } = require('@nx/webpack');
 const { join } = require('path');
 
+// todo?
+
 module.exports = {
   output: {
     path: join(__dirname, '../../dist/apps/backend'),
