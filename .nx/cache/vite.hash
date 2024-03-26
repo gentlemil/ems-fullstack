@@ -1,5 +1,5 @@
 {
-  "4866125300380355280": {
+  "1020629257690728519": {
     "build": {
       "command": "vite build",
       "options": {
@@ -58,6 +58,48 @@
       "outputs": [
         "{workspaceRoot}/coverage/apps/frontend"
       ]
+    }
+  },
+  "7020800063439957493": {
+    "build": {
+      "command": "vite build",
+      "options": {
+        "cwd": "libs/common-ui"
+      },
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production",
+        {
+          "externalDependencies": [
+            "vite"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/dist/libs/common-ui"
+      ]
+    },
+    "serve": {
+      "command": "vite serve",
+      "options": {
+        "cwd": "libs/common-ui"
+      }
+    },
+    "preview": {
+      "command": "vite preview",
+      "options": {
+        "cwd": "libs/common-ui"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build"
+      }
     }
   }
 }

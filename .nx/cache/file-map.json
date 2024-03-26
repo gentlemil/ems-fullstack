@@ -67,10 +67,15 @@
     "ts-node": "10.9.1",
     "typescript": "~5.3.2",
     "vite": "~5.0.0",
+    "vite-plugin-dts": "~2.3.0",
     "vitest": "^1.3.1",
     "webpack-cli": "^5.1.4"
   },
-  "pathMappings": {},
+  "pathMappings": {
+    "@ems-monorepo/common-ui": [
+      "libs/common-ui/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [
     {
       "name": "@nx/vite/plugin",
@@ -211,6 +216,79 @@
           ]
         }
       ],
+      "website": [
+        {
+          "file": "apps/website/.eslintrc.json",
+          "hash": "3060393911192195517"
+        },
+        {
+          "file": "apps/website/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/website/jest.config.ts",
+          "hash": "8832065715910226160"
+        },
+        {
+          "file": "apps/website/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/website/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/website/project.json",
+          "hash": "11770910079608409306"
+        },
+        {
+          "file": "apps/website/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/website/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/website/specs/index.spec.tsx",
+          "hash": "1288872939091782814",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/website/src/app/api/hello/route.ts",
+          "hash": "495073956729887886"
+        },
+        {
+          "file": "apps/website/src/app/global.css",
+          "hash": "2063387531564215811"
+        },
+        {
+          "file": "apps/website/src/app/layout.tsx",
+          "hash": "5031265179556016441"
+        },
+        {
+          "file": "apps/website/src/app/page.module.scss",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/website/src/app/page.tsx",
+          "hash": "17811775862216885156"
+        },
+        {
+          "file": "apps/website/tsconfig.json",
+          "hash": "2199354216269911900"
+        },
+        {
+          "file": "apps/website/tsconfig.spec.json",
+          "hash": "6922413205408300107"
+        }
+      ],
       "frontend": [
         {
           "file": "apps/frontend/.eslintrc.json",
@@ -296,77 +374,60 @@
           ]
         }
       ],
-      "website": [
+      "common-ui": [
         {
-          "file": "apps/website/.eslintrc.json",
-          "hash": "3060393911192195517"
+          "file": "libs/common-ui/.eslintrc.json",
+          "hash": "10905178498824427073"
         },
         {
-          "file": "apps/website/index.d.ts",
-          "hash": "5498222895072842432"
+          "file": "libs/common-ui/README.md",
+          "hash": "8821835685903415268"
         },
         {
-          "file": "apps/website/jest.config.ts",
-          "hash": "8832065715910226160"
+          "file": "libs/common-ui/jest.config.ts",
+          "hash": "1790660349824415664"
         },
         {
-          "file": "apps/website/next-env.d.ts",
-          "hash": "5909181270615354023"
+          "file": "libs/common-ui/package.json",
+          "hash": "3757648810678506740"
         },
         {
-          "file": "apps/website/next.config.js",
-          "hash": "17252635002163063865",
+          "file": "libs/common-ui/project.json",
+          "hash": "9257495389757010786"
+        },
+        {
+          "file": "libs/common-ui/src/index.ts",
+          "hash": "7042530065208155415"
+        },
+        {
+          "file": "libs/common-ui/src/lib/common-ui.spec.ts",
+          "hash": "150402581862420844"
+        },
+        {
+          "file": "libs/common-ui/src/lib/common-ui.ts",
+          "hash": "17429189520714281817"
+        },
+        {
+          "file": "libs/common-ui/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "libs/common-ui/tsconfig.lib.json",
+          "hash": "874530265290128605"
+        },
+        {
+          "file": "libs/common-ui/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "libs/common-ui/vite.config.ts",
+          "hash": "5220493418666129159",
           "deps": [
-            "npm:@nx/next"
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:path",
+            "npm:@nx/vite"
           ]
-        },
-        {
-          "file": "apps/website/project.json",
-          "hash": "11770910079608409306"
-        },
-        {
-          "file": "apps/website/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/website/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/website/specs/index.spec.tsx",
-          "hash": "1288872939091782814",
-          "deps": [
-            "npm:react",
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/website/src/app/api/hello/route.ts",
-          "hash": "495073956729887886"
-        },
-        {
-          "file": "apps/website/src/app/global.css",
-          "hash": "2063387531564215811"
-        },
-        {
-          "file": "apps/website/src/app/layout.tsx",
-          "hash": "5031265179556016441"
-        },
-        {
-          "file": "apps/website/src/app/page.module.scss",
-          "hash": "4786619528779355986"
-        },
-        {
-          "file": "apps/website/src/app/page.tsx",
-          "hash": "17811775862216885156"
-        },
-        {
-          "file": "apps/website/tsconfig.json",
-          "hash": "2199354216269911900"
-        },
-        {
-          "file": "apps/website/tsconfig.spec.json",
-          "hash": "6922413205408300107"
         }
       ]
     },
@@ -416,16 +477,20 @@
         "hash": "9430166341120122740"
       },
       {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
         "file": "nx.json",
-        "hash": "14127461876299512271"
+        "hash": "9898150213857778227"
       },
       {
         "file": "package-lock.json",
-        "hash": "5266199399350034940"
+        "hash": "13828535918545628828"
       },
       {
         "file": "package.json",
-        "hash": "12013596163282066767"
+        "hash": "12715129603268057399"
       },
       {
         "file": "tools/tsconfig.tools.json",
@@ -433,7 +498,7 @@
       },
       {
         "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "hash": "3173062863962198051"
       },
       {
         "file": "vitest.workspace.ts",

@@ -40,5 +40,26 @@
         "{workspaceRoot}/coverage/apps/website"
       ]
     }
+  },
+  "9658230891422762959": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "libs/common-ui"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/libs/common-ui"
+      ]
+    }
   }
 }
