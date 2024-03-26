@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX Daemon Server] - 2024-03-26T10:05:04.097Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:04.490Z - Time taken for 'hash changed files from watcher' 0.13295793533325195ms
+[NX Daemon Server] - 2024-03-26T10:05:04.491Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2024-03-26T10:05:04.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:05:04.493Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (sources)
+[NX Daemon Server] - 2024-03-26T10:05:05.172Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:05:05.173Z - Time taken for 'total for creating and serializing project graph' 1070.8123750686646ms
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:05.450Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (outputs)
+[NX Daemon Server] - 2024-03-26T10:05:05.450Z - Server stopped because: "Lock file changed"
+
+
+
+More information: /Users/miloszbukala/workspace/ems-monorepo/.nx/cache/d/daemon.log

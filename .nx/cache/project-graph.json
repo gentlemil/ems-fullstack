@@ -1,0 +1,342 @@
+{
+  "nodes": {
+    "frontend": {
+      "name": "frontend",
+      "type": "app",
+      "data": {
+        "root": "apps/frontend",
+        "targets": {
+          "build": {
+            "options": {
+              "cwd": "apps/frontend",
+              "command": "vite build"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production",
+              {
+                "externalDependencies": [
+                  "vite"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/dist/apps/frontend"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "serve": {
+            "options": {
+              "cwd": "apps/frontend",
+              "command": "vite serve"
+            },
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "preview": {
+            "options": {
+              "cwd": "apps/frontend",
+              "command": "vite preview"
+            },
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "serve-static": {
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "build"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "options": {
+              "cwd": "apps/frontend",
+              "command": "vitest run"
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              {
+                "externalDependencies": [
+                  "vitest"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/apps/frontend"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/frontend",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          }
+        },
+        "name": "frontend",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/frontend/src",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
+    "backend": {
+      "name": "backend",
+      "type": "app",
+      "data": {
+        "root": "apps/backend",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/backend",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "build": {
+            "options": {
+              "cwd": "apps/backend",
+              "args": [
+                "--node-env=production"
+              ],
+              "command": "webpack-cli build"
+            },
+            "cache": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production",
+              {
+                "externalDependencies": [
+                  "webpack-cli"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/dist/apps/backend"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "serve": {
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "options": {
+              "buildTarget": "backend:build"
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "backend:build:development"
+              },
+              "production": {
+                "buildTarget": "backend:build:production"
+              }
+            }
+          },
+          "preview": {
+            "options": {
+              "cwd": "apps/backend",
+              "args": [
+                "--node-env=production"
+              ],
+              "command": "webpack-cli serve"
+            },
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "serve-static": {
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "build"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "options": {
+              "cwd": "apps/backend",
+              "command": "jest"
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              {
+                "externalDependencies": [
+                  "jest"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/apps/backend"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          }
+        },
+        "projectType": "application",
+        "name": "backend",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/backend/src",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
+    "website": {
+      "name": "website",
+      "type": "app",
+      "data": {
+        "root": "apps/website",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "apps/website",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.json",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "test": {
+            "options": {
+              "cwd": "apps/website",
+              "command": "jest"
+            },
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              {
+                "externalDependencies": [
+                  "jest"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/apps/website"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "build": {
+            "options": {
+              "cwd": "apps/website",
+              "command": "next build"
+            },
+            "dependsOn": [
+              "^build"
+            ],
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              {
+                "externalDependencies": [
+                  "next"
+                ]
+              }
+            ],
+            "outputs": [
+              "{workspaceRoot}/apps/website/.next",
+              "{workspaceRoot}/apps/website/.next/!(cache)"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "dev": {
+            "options": {
+              "cwd": "apps/website",
+              "command": "next dev"
+            },
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "start": {
+            "options": {
+              "cwd": "apps/website",
+              "command": "next start"
+            },
+            "dependsOn": [
+              "build"
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          },
+          "serve-static": {
+            "executor": "@nx/web:file-server",
+            "options": {
+              "buildTarget": "build",
+              "staticFilePath": "apps/website/out",
+              "port": 3000
+            },
+            "configurations": {}
+          }
+        },
+        "name": "website",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/website",
+        "projectType": "application",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "frontend": [],
+    "backend": [],
+    "website": []
+  },
+  "version": "6.0"
+}

@@ -1,0 +1,360 @@
+[NX Daemon Server] - 2024-03-26T10:01:58.358Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:01:58.359Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:01:58.360Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:01:58.361Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:01:58.361Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:01:58.361Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:01:58.361Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:01:58.362Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:01:58.362Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:01:58.436Z - Time taken for 'hash changed files from watcher' 0.03299999237060547ms
+[NX Daemon Server] - 2024-03-26T10:01:58.437Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-03-26T10:01:58.792Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:01:58.793Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-03-26T10:01:58.793Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:01:58.855Z - Time taken for 'hash changed files from watcher' 0.10945796966552734ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-03-26T10:01:58.954Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:01:58.955Z - Time taken for 'total for creating and serializing project graph' 592.8981671333313ms
+[NX Daemon Server] - 2024-03-26T10:01:59.228Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:01:59.228Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 593. Response time: 274.
+[NX Daemon Server] - 2024-03-26T10:01:59.231Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:01:59.231Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:01:59.231Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-26T10:01:59.232Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:02:32.088Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:02:32.088Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:02:32.089Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:02:32.090Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:02:32.090Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:02:32.090Z - Time taken for 'total for creating and serializing project graph' 0.06529116630554199ms
+[NX Daemon Server] - 2024-03-26T10:02:32.092Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:02:32.092Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-26T10:02:32.096Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:03:04.682Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:04.682Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:03:04.683Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:04.683Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:04.684Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:04.684Z - Time taken for 'total for creating and serializing project graph' 0.049165964126586914ms
+[NX Daemon Server] - 2024-03-26T10:03:04.685Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:04.686Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-03-26T10:03:04.690Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:03:26.380Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:26.380Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:03:26.381Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:26.382Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:26.382Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:26.383Z - Time taken for 'total for creating and serializing project graph' 0.046000003814697266ms
+[NX Daemon Server] - 2024-03-26T10:03:26.384Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:26.384Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-26T10:03:26.388Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:03:47.883Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-03-26T10:03:47.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:03:47.985Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:47.985Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-03-26T10:03:47.985Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:47.995Z - Time taken for 'hash changed files from watcher' 0.10912513732910156ms
+
+ NX   Failed to parse npm lockfile
+
+Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+
+Original error: Source project does not exist: npm:@angular-devkit/core
+
+
+Error: Source project does not exist: npm:@angular-devkit/core
+    at validateCommonDependencyRules (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+    at validateDependency (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+    at /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:156:76
+    at Array.forEach (<anonymous>)
+    at /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:148:45
+    at Array.forEach (<anonymous>)
+    at /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:146:15
+    at Array.forEach (<anonymous>)
+    at getDependencies (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:136:39)
+    at getNpmLockfileDependencies (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/plugins/js/lock-file/npm-parser.js:33:12)
+
+[NX Daemon Server] - 2024-03-26T10:03:48.004Z - Error detected when creating a project graph: Failed to process project dependencies with "nx/js/dependencies-and-lockfile".
+Source project does not exist: npm:@angular-devkit/core
+[NX Daemon Server] - 2024-03-26T10:03:48.004Z - Time taken for 'build-project-configs' 15.976999998092651ms
+[NX Daemon Server] - 2024-03-26T10:03:48.041Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:03:48.042Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (sources)
+[NX Daemon Server] - 2024-03-26T10:03:48.042Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (outputs)
+[NX Daemon Server] - 2024-03-26T10:03:48.042Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-26T10:03:48.552Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:03:48.554Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:03:48.554Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:48.555Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:48.556Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:48.557Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:48.557Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:48.557Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:48.558Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:48.644Z - Time taken for 'hash changed files from watcher' 0.11262500000000131ms
+[NX Daemon Server] - 2024-03-26T10:03:48.645Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-03-26T10:03:48.919Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:48.919Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-03-26T10:03:48.919Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:48.937Z - Time taken for 'hash changed files from watcher' 0.14754100000004655ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-03-26T10:03:49.043Z - Time taken for 'build-project-configs' 92.15429200000005ms
+[NX Daemon Server] - 2024-03-26T10:03:49.057Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:49.058Z - Time taken for 'total for creating and serializing project graph' 499.73829199999994ms
+[NX Daemon Server] - 2024-03-26T10:03:49.058Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:49.058Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-26T10:03:49.058Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:49.059Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:49.059Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:49.060Z - Time taken for 'total for creating and serializing project graph' 0.0664160000000038ms
+[NX Daemon Server] - 2024-03-26T10:03:49.275Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:49.275Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 216.
+[NX Daemon Server] - 2024-03-26T10:03:49.276Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:49.276Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 500. Response time: 219.
+[NX Daemon Server] - 2024-03-26T10:03:49.277Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:49.278Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:49.278Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-26T10:03:49.280Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:49.456Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-03-26T10:03:49.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:03:49.557Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:49.557Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-03-26T10:03:49.557Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:49.565Z - Time taken for 'hash changed files from watcher' 0.08895800000004783ms
+[NX Daemon Server] - 2024-03-26T10:03:49.580Z - Time taken for 'build-project-configs' 12.370582999999897ms
+[NX Daemon Server] - 2024-03-26T10:03:50.457Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:50.457Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-26T10:03:50.457Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:50.458Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:50.458Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:50.460Z - Time taken for 'total for creating and serializing project graph' 0.09333399999991343ms
+[NX Daemon Server] - 2024-03-26T10:03:50.461Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:50.461Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-26T10:03:50.464Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:50.464Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:50.465Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-26T10:03:50.465Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:52.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:03:52.187Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (sources)
+[NX Daemon Server] - 2024-03-26T10:03:52.187Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (outputs)
+[NX Daemon Server] - 2024-03-26T10:03:52.187Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-26T10:03:53.356Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:03:53.357Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:03:53.366Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:53.366Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:03:53.367Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:03:53.367Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:03:53.367Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:53.367Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:53.367Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:53.423Z - Time taken for 'hash changed files from watcher' 0.11874985694885254ms
+[NX Daemon Server] - 2024-03-26T10:03:53.424Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-03-26T10:03:53.538Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:03:53.539Z - Time taken for 'total for creating and serializing project graph' 171.3090000152588ms
+[NX Daemon Server] - 2024-03-26T10:03:53.539Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:03:53.539Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:53.539Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:03:53.546Z - Time taken for 'hash changed files from watcher' 0.022875070571899414ms
+[NX Daemon Server] - 2024-03-26T10:03:53.663Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:03:53.663Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 171. Response time: 125.
+[NX Daemon Server] - 2024-03-26T10:03:53.665Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:53.665Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:03:53.665Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-26T10:03:53.680Z - Time taken for 'build-project-configs' 127.37379193305969ms
+[NX Daemon Server] - 2024-03-26T10:03:53.680Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:04:21.552Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:04:21.553Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:04:21.553Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:04:21.554Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:04:21.554Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:04:21.555Z - Time taken for 'total for creating and serializing project graph' 0.058709144592285156ms
+[NX Daemon Server] - 2024-03-26T10:04:21.556Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:04:21.556Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-26T10:04:57.593Z - [WATCHER]: 25 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-26T10:04:57.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:04:57.697Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:04:57.697Z - [REQUEST]: apps/backend-e2e/tsconfig.spec.json,apps/backend-e2e/src/support/global-setup.ts,apps/backend/src/app/app.controller.spec.ts,apps/backend-e2e/.eslintrc.json,apps/backend-e2e/tsconfig.json,apps/backend/tsconfig.spec.json,apps/backend-e2e/jest.config.ts,apps/backend-e2e/src/backend/backend.spec.ts,apps/backend/src/app/app.module.ts,apps/backend/tsconfig.app.json,apps/backend/src/assets/.gitkeep,apps/backend/src/app/app.service.spec.ts,apps/backend/src/app/app.controller.ts,apps/backend-e2e/src/support/global-teardown.ts,apps/backend/webpack.config.js,apps/backend/src/app/app.service.ts,apps/backend/jest.config.ts,apps/backend-e2e/src/support/test-setup.ts,jest.preset.js,apps/backend/tsconfig.json,apps/backend/.eslintrc.json,jest.config.ts,apps/backend/src/main.ts,apps/backend-e2e/project.json,apps/backend/project.json,nx.json,package.json,.vscode/extensions.json
+[NX Daemon Server] - 2024-03-26T10:04:57.697Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-03-26T10:04:57.699Z - Time taken for 'hash changed files from watcher' 0.4483327865600586ms
+[NX Daemon Server] - 2024-03-26T10:04:58.596Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:04:58.596Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-03-26T10:04:58.596Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:04:58.597Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:04:58.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:04:58.597Z - [REQUEST]: apps/backend-e2e/tsconfig.spec.json,apps/backend-e2e/src/support/global-setup.ts,apps/backend/src/app/app.controller.spec.ts,apps/backend-e2e/.eslintrc.json,apps/backend-e2e/tsconfig.json,apps/backend/tsconfig.spec.json,apps/backend-e2e/jest.config.ts,apps/backend-e2e/src/backend/backend.spec.ts,apps/backend/src/app/app.module.ts,apps/backend/tsconfig.app.json,apps/backend/src/assets/.gitkeep,apps/backend/src/app/app.service.spec.ts,apps/backend/src/app/app.controller.ts,apps/backend-e2e/src/support/global-teardown.ts,apps/backend/webpack.config.js,apps/backend/src/app/app.service.ts,apps/backend/jest.config.ts,apps/backend-e2e/src/support/test-setup.ts,jest.preset.js,apps/backend/tsconfig.json,apps/backend/.eslintrc.json,jest.config.ts,apps/backend/src/main.ts,apps/backend-e2e/project.json,apps/backend/project.json,nx.json,package.json,.vscode/extensions.json
+[NX Daemon Server] - 2024-03-26T10:04:58.597Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-03-26T10:04:58.598Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1084:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:127:19)
+    at getPluginPathAndName (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:35:30)
+    at loadNxPluginAsync (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:78:38)
+    at loadNxPlugins (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:105:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:142:28)
+    at async getCachedSerializedProjectGraphPromise (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js'
+  ]
+}
+[NX Daemon Server] - 2024-03-26T10:04:58.598Z - Done responding to the client null
+[NX Daemon Server] - 2024-03-26T10:04:59.814Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:04:59.814Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:04:59.821Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:04:59.821Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:04:59.821Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:04:59.822Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:04:59.822Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:04:59.822Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:04:59.822Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-03-26T10:04:59.918Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js
+- /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1084:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:127:19)
+    at getPluginPathAndName (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:35:30)
+    at loadNxPluginAsync (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:78:38)
+    at loadNxPlugins (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js:105:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async retrieveProjectConfigurations (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/utils/retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:142:28)
+    at async getCachedSerializedProjectGraphPromise (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/nx-plugin.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/build-project-graph.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/project-graph/project-graph.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/utils/project-graph-utils.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/server.js',
+    '/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/start.js'
+  ]
+}
+[NX Daemon Server] - 2024-03-26T10:04:59.919Z - Done responding to the client null
+[NX Daemon Server] - 2024-03-26T10:05:04.097Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:05:04.097Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:05:04.101Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:04.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:04.490Z - Time taken for 'hash changed files from watcher' 0.13295793533325195ms
+[NX Daemon Server] - 2024-03-26T10:05:04.491Z - [WATCHER]: package-lock.json was modified
+[NX Daemon Server] - 2024-03-26T10:05:04.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:05:04.493Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (sources)
+[NX Daemon Server] - 2024-03-26T10:05:05.172Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:05:05.173Z - Time taken for 'total for creating and serializing project graph' 1070.8123750686646ms
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:05.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:05.450Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (outputs)
+[NX Daemon Server] - 2024-03-26T10:05:05.450Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-03-26T10:05:05.808Z - Started listening on: /var/folders/1z/r1r7dt515ndff4n4qzbx6q040000gn/T/b364b418c9b9de41c932/d.sock
+[NX Daemon Server] - 2024-03-26T10:05:05.809Z - [WATCHER]: Subscribed to changes within: /Users/miloszbukala/workspace/ems-monorepo (native)
+[NX Daemon Server] - 2024-03-26T10:05:05.845Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:05.845Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-26T10:05:05.845Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-26T10:05:05.846Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-26T10:05:05.846Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:05.846Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:05.846Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:06.086Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-26T10:05:06.087Z - Time taken for 'total for creating and serializing project graph' 239.87829208374023ms
+[NX Daemon Server] - 2024-03-26T10:05:06.088Z - [WATCHER]: .nx/cache/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-03-26T10:05:06.089Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-26T10:05:06.089Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 240. Response time: 3.
+[NX Daemon Server] - 2024-03-26T10:05:06.092Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:05:06.092Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:05:06.092Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-26T10:05:06.092Z - [REQUEST]: Responding to the client. handleRequestFileData
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.write (node:internal/streams/writable:337:10)
+    at /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/shutdown-utils.js:59:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/shutdown-utils.js:55:12) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-03-26T10:05:06.093Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-03-26T10:05:06.093Z - Socket error
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.write (node:internal/streams/writable:337:10)
+    at /Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/shutdown-utils.js:59:16
+    at new Promise (<anonymous>)
+    at respondToClient (/Users/miloszbukala/workspace/ems-monorepo/node_modules/nx/src/daemon/server/shutdown-utils.js:55:12) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+[NX Daemon Server] - 2024-03-26T10:05:06.093Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-26T10:05:06.093Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-26T10:05:06.189Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-26T10:05:06.189Z - [REQUEST]: .nx/cache/d/server-process.json
+[NX Daemon Server] - 2024-03-26T10:05:06.189Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-26T10:05:06.381Z - Time taken for 'hash changed files from watcher' 0.16237497329711914ms
+[NX Daemon Server] - 2024-03-26T10:05:44.569Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-03-26T10:05:44.569Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:05:44.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-26T10:05:44.737Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (sources)
+[NX Daemon Server] - 2024-03-26T10:05:44.737Z - [WATCHER]: Stopping the watcher for /Users/miloszbukala/workspace/ems-monorepo (outputs)
+[NX Daemon Server] - 2024-03-26T10:05:44.737Z - Server stopped because: "Lock file changed"
